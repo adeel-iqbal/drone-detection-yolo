@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Detection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body class="min-h-screen flex flex-col bg-cover bg-center" style="background-image: url('/static/images/wp_drone.jpg');">
+
+    <!-- Navbar -->
+    <nav class="bg-black bg-opacity-60 text-white p-4 flex justify-center space-x-8">
+        <a href="/" class="hover:text-yellow-400">Home</a>
+        <a href="/image" class="hover:text-yellow-400">Image</a>
+        <a href="/video" class="hover:text-yellow-400">Video</a>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="flex-grow flex justify-center items-center text-white">
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black bg-opacity-60 text-white p-4 text-center mt-8">
+        <p>Built by Adeel Iqbal</p>
+        <div class="flex justify-center space-x-6 mt-2 text-2xl">
+            <a href="https://www.linkedin.com/in/adeeliqbalmemon" target="_blank" class="hover:text-yellow-400">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/adeel-iqbal" target="_blank" class="hover:text-yellow-400">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
