@@ -69,15 +69,9 @@ This project implements an end-to-end drone detection system using YOLOv11 (nano
 
 ### Sample Detection Output
 
-https://github.com/adeel-iqbal/drone-detection-yolo/assets/drone_detection_vid.mp4
+![Drone Detection Demo](assets/drone_detection_vid.gif)
 
 *Model successfully detecting drones in various scenarios with bounding boxes*
-
-### Application Walkthrough
-
-https://github.com/adeel-iqbal/drone-detection-yolo/assets/app_vid.mp4
-
-*Complete demonstration of the web application workflow*
 
 ---
 
@@ -219,6 +213,7 @@ drone-detection-yolo/
 │   ├── preview3.png
 │   ├── preview4.png
 │   ├── preview5.png
+│   ├── drone_detection_vid.gif
 │   ├── drone_detection_vid.mp4
 │   └── app_vid.mp4
 │
